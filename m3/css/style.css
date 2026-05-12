@@ -1,0 +1,38 @@
+css
+
+/ Reset dasar /
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Body */
+body {
+background-color: #2b4270;
+color: #e2e8f0;
+
+}
+
+
+/* Heading */
+h1, h2,h3 {
+color: #fffbfb;
+}
+
+
+/* Link */
+a {
+color: #579ef0;
+text-decoration: none;
+}
+a:hover {
+color: #93c5fd;
+}
+
+
+/* Garis pemisah */
+hr {
+border: none;
+border-top: 1px solid #0b1018;
+}

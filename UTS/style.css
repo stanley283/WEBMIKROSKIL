@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+body {
+    background-color: #faffdf;
+    color: #181818; 
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+/* Header */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 153, 255);
+    text-align: center;
+
+}
+
+/* Hero */
+.hero {
+    background-color: white;
+    padding: 60px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.hero-content {
+    display: flex;
+    align-items:center; 
+    gap: 40px;
+}
+
+.profile-img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit:none;
+    background-color: #ccc;
+}
+
+.hero-text h1 { 
+    font-size: 2.5rem;
+    color: #0d1b2a;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    line-height: 1.6;
+    color: #555;
+    max-width: 600px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+
+/* Contact Section */
+.contact {
+    padding: 40px 0 80px;
+    text-align: left;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #0cff49;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Contact 2 Section */
+.contact2 {
+    padding: 40px 0 80px;
+    text-align: center;
+}
+
+.contact2-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact2-links a {
+    text-decoration: none;
+    color: #0cff49;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #0d1b2a;
+    color: #888;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    font-size: 0.9rem;
+}
